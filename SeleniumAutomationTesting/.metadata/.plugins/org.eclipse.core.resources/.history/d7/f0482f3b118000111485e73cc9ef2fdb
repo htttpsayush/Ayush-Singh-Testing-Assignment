@@ -1,0 +1,10 @@
+package com.NavigationCommands;
+
+import org.testng.annotation.*;
+
+public class BrowserNavigationTest {
+	
+	webDriver driver;
+		@Parameter
+
+}
