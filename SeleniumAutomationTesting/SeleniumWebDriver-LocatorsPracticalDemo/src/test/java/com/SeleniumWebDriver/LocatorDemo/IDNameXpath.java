@@ -1,0 +1,43 @@
+package com.SeleniumWebDriver.LocatorDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class IDNameXpath {
+	
+	WebDriver driver;
+	
+	String baseURL = "https://practicetestautomation.com/practice-test-login/";
+	
+	@Test
+	public void IDlocator() {
+		
+		driver = new ChromeDriver();
+		driver.navigate().to(baseURL);
+		driver.manage().window().maximize();
+		
+		// locator Id name and xpath
+		
+		driver.findElement(By.id("username")).sendKeys("student");
+		driver.findElement(By.id("password")).sendKeys("Password123");
+		driver.findElement(By.xpath("//button[@id='submit']")).click();
+		
+		String ActualTitle = driver.getTitle();
+		
+		String ExpectedTitle = "Logged In Successfully | Practice Test Automation";
+		
+		if(ActualTitle.equals(ExpectedTitle)) {
+			System.out.println("Passed");
+		}
+		else {
+			System.out.println("Failed");
+		}
+		
+		
+
+	}
+	
+
+}

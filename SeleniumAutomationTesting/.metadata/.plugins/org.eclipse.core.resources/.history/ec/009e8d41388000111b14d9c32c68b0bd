@@ -1,0 +1,30 @@
+package com.SeleniumWebDriver.LocatorDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class VitamentsandSuppliments {
+	
+WebDriver driver;
+	
+	String baseURL = "https://www.hollandandbarrett.com/";
+	
+	@Test
+	public void IDlocator() {
+		
+		driver = new ChromeDriver();
+		driver.get("https://www.hollandandbarrett.com/");
+		driver.navigate().to(baseURL);
+		driver.manage().window().maximize();
+		
+		// locator Id name and xpath
+		
+		//driver.findElement(By.id("username")).sendKeys("student");
+		//driver.findElement(By.id("password")).sendKeys("Password123");
+		driver.findElement(By.xpath("//button[@id='submit']")).click();
+	
+	
+
+}

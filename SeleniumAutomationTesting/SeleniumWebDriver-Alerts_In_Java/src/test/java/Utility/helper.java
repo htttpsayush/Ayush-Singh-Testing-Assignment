@@ -1,0 +1,32 @@
+package Utility;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class helper {
+	public static WebDriver startBrowsing(String browserName) {
+		WebDriver driver = null;
+		if (browserName.equalsIgnoreCase("chrome") || browserName.equalsIgnoreCase("GC") || browserName.equalsIgnoreCase("google chrome")) {
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			
+		} else if (browserName.equalsIgnoreCase("FireFox")|| browserName.equalsIgnoreCase("FF") || browserName.equalsIgnoreCase("Mozilla Firefox")) {
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			
+		} else if (browserName.equalsIgnoreCase("edge") || browserName.equalsIgnoreCase("EG	") || browserName.equalsIgnoreCase("Microsoft edge")) {
+			driver = new EdgeDriver();
+			driver.manage().window().maximize();
+			
+		} else {
+			System.out.println("Sorry we do not support this browser");
+		}
+		return driver;
+	}
+	public static void closeBrowsing(WebDriver driver) {
+		driver.quit();
+	}
+
+}

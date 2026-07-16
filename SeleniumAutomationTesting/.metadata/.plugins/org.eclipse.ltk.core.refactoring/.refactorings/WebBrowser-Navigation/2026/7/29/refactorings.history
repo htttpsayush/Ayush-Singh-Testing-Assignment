@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WebBrowser-Navigation/testng12.xml&apos; to &apos;NavigationCaseStudy.xml&apos;" description="Rename resource &apos;testng12.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng12.xml" name="NavigationCaseStudy.xml" stamp="1784176326087" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WebBrowser-Navigation/testng.xml&apos; to &apos;NavigationTest.xml&apos;" description="Rename resource &apos;testng.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng.xml" name="NavigationTest.xml" stamp="1784176344261" updateReferences="true"/>
+</session>

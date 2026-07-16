@@ -1,0 +1,50 @@
+package com.SeleniumWebDriver.LocatorDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import java.util.List;
+
+public class FindElementsByLinks {
+	
+	
+	 @Test
+	    public void TestDemo() throws Exception {
+
+	        WebDriver driver ;
+	        driver.manage().window().maximize();
+
+	        driver.navigate().to(
+	            "https://www.hollandandbarrett.com/shop/vitamins-supplements/vitamins/"
+	        );
+
+	        Thread.sleep(10000);
+
+	        try {
+	            driver.findElement(By.id("onetrust-accept-btn-handler")).click();
+	        } catch (Exception e) {
+	            System.out.println("Cookie popup not displayed.");
+	        }
+	
+	 }
+	 
+	 @Test
+	 public void findeElementById() throws Exception{
+		 
+		 driver.findElement(By.xpath("//a[contains(text(),'Vitamins & Supplements')]")).click();
+		 driver.findElement(By.LinkText("Vitamins & Supplements")).click();
+		 List<WebElement> links = driver.findElements(By.xpath("//a"));
+		 int linkCount = links.size();
+		 total = total + link.size();
+		 System.out.println("Number of Links: "+ linkCount);
+		 for (int i=1;i<links.size();i++) {
+			 System.out.println(links.get(i).getText());
+		 }
+
+	 }
+}
+
+
