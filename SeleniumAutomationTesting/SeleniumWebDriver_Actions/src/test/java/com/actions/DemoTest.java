@@ -18,14 +18,14 @@ public class DemoTest {
         driver.manage().window().maximize();
         driver.get("https://www.spicejet.com/");
 
-        driver.findElement(By.xpath("//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div/div[1]/div[1]/svg/g/circle[2]")).click();
-        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//*[name()='circle'])[6]")).click();
+        Thread.sleep(5000);
 
-        driver.findElement(By.xpath("//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/svg/g/circle[2]")).click();
-        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//*[name()='circle'])[10]")).click();
+        Thread.sleep(5000);
 
         List<WebElement> circleElements =
-                driver.findElements(By.xpath("//*[@name()='circle']"));
+                driver.findElements(By.xpath("//*[name()='circle']"));
 
         // Print each button's details
         System.out.println("=== RADIO BUTTONS DETAILS ===");
