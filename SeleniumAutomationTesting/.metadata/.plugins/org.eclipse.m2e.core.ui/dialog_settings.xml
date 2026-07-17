@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver-DataDrivenTestingUsingCSVFiles\pom.xml"/>
+			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver-Multiple_Frames\src\test\java\com\MultipleFrames\MultiFrames.java"/>
 			<item value="D:\coforge testing folder\coforgeautomationtesting\Selenium-Webdriver-launch-Chrome-Browser\src\com\SeleniumWebdriver\ChromeBreowser\ChromeBrowserTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -44,16 +46,31 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SeleniumWebDriver_Actions"/>
+			<item value="CountNoOfRadioButtonPresentInSpiceJet.com"/>
+			<item value="SeleniumWebDriver-DataDrivenTestingUsingCSVFiles"/>
+			<item value="Multiple_Frames"/>
+			<item value="SeleniumWebDriver_HandlingListBoxOrDropDownBoxItems"/>
 			<item value="WebBrowser-Navigation"/>
 			<item value="Selenium-WebDriver-WebBrowserCommands"/>
 			<item value="Selenium-Webdriver-Chrome-Browser-Launch"/>
 		</list>
 		<list key="name">
+			<item value="SeleniumWebDriver_Actions"/>
+			<item value="SpiceJet.com"/>
+			<item value="Data"/>
+			<item value="Multiple_Frames"/>
+			<item value="ListBoxOrDropDownBox"/>
 			<item value="Navigation"/>
 			<item value="WebDriver-Commands"/>
 			<item value="Ayush Test Architect"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumWebDriver_Actions"/>
+			<item value="CountNoOfRadioButtonPresentInSpiceJet.com"/>
+			<item value="SeleniumWebDriver-DataDrivenTestingUsingCSVFiles"/>
+			<item value="Multiple_Frames"/>
+			<item value="SeleniumWebDriver_HandlingListBoxOrDropDownBoxItems"/>
 			<item value="WebBrowser-Navigation"/>
 			<item value="Selenium-WebDriver-WebBrowserCommands"/>
 			<item value="ChromeBrowserTest"/>
