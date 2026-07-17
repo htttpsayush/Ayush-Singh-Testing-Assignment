@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.actions.DemoTest">
+      <class name="com.actions.MouseOverMoment">
         <methods>
-          <include name="SpiceJet"/>
+          <include name="mouseover"/>
         </methods>
-      </class> <!-- com.actions.DemoTest -->
+      </class> <!-- com.actions.MouseOverMoment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
