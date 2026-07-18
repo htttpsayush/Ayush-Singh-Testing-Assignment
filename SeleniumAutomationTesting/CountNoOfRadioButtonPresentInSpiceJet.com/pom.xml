@@ -4,4 +4,16 @@
   <artifactId>CountNoOfRadioButtonPresentInSpiceJet.com</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>SpiceJet.com</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>Selenium-Webdriver-Chrome-Browser-Launch</groupId>
+  		<artifactId>ChromeBrowserTest</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>Selenium-WebDriver-WebBrowserCommands</groupId>
+  		<artifactId>Selenium-WebDriver-WebBrowserCommands</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
