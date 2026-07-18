@@ -17,7 +17,7 @@ public class RadioButtonTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.easemytrip.com/");
 		
-		List<WebElement> radiobuttons=driver.findElements(By.xpath("//input[@type='radio']"));
+		List<WebElement> radiobuttons=driver.findElements(By.xpath("//input[type='radio']"));
 		System.out.println("Total number of radio buttons present in EaseMyTrip.com: " + radiobuttons.size());
 	}
 
