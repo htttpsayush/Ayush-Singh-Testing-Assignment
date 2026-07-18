@@ -20,8 +20,8 @@ public class ExecuteLoginPages {
         LoginEasyCal loginPageEasyCal =
                 PageFactory.initElements(driver, LoginEasyCal.class);
 
-        loginPageEasyCal.login_EasyCal(
-                "9740673180",
-                "raghubn@123");
+        loginPageEasyCal.login_EasyCal("9740673180","raghubn@123");
+                
+                
     }
 }
