@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-20T15:25:03 IST" name="Suite" finished-at="2026-07-20T15:26:53 IST" duration-ms="110153">
+    <groups>
+    </groups>
+    <test started-at="2026-07-20T15:25:03 IST" name="Test" finished-at="2026-07-20T15:26:53 IST" duration-ms="110153">
+      <class name="com.WebDriverCommands.CaseStudy7">
+        <test-method signature="headlessBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy7@7dfd3c81]" started-at="2026-07-20T15:26:17 IST" name="headlessBrowserCommands" finished-at="2026-07-20T15:26:19 IST" duration-ms="1797" status="FAIL">
+          <exception class="java.nio.file.FileAlreadyExistsException">
+            <message>
+              <![CDATA[Screenshots\HeadlessHomePage.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.FileAlreadyExistsException: Screenshots\HeadlessHomePage.png
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:133)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:282)
+at java.base/java.nio.file.Files.copy(Files.java:1305)
+at com.WebDriverCommands.CaseStudy7.headlessBrowserCommands(CaseStudy7.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.FileAlreadyExistsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy7 -->
+      <class name="com.WebDriverCommands.CaseStudy6">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy6@2584b82d]" started-at="2026-07-20T15:26:19 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:21 IST" duration-ms="1480" status="FAIL">
+          <exception class="java.nio.file.FileAlreadyExistsException">
+            <message>
+              <![CDATA[Screenshots\WebkulHomePage.png]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.FileAlreadyExistsException: Screenshots\WebkulHomePage.png
+at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:133)
+at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:282)
+at java.base/java.nio.file.Files.copy(Files.java:1305)
+at com.WebDriverCommands.CaseStudy6.chromeBrowserCommands(CaseStudy6.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.FileAlreadyExistsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy6 -->
+      <class name="com.WebDriverCommands.CaseStudy3">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:17 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:25:32 IST" duration-ms="15449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:32 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:25:40 IST" duration-ms="7883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeBrowserCommands -->
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:40 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:25:50 IST" duration-ms="10040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy3 -->
+      <class name="com.WebDriverCommands.BrowserCommands">
+        <test-method signature="FireFoxBrowserTest()[pri:0, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:03 IST" name="FireFoxBrowserTest" finished-at="2026-07-20T15:25:08 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FireFoxBrowserTest -->
+        <test-method signature="ChromeBrowserTest()[pri:1, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:09 IST" name="ChromeBrowserTest" finished-at="2026-07-20T15:25:11 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrowserTest -->
+        <test-method signature="EdgeBrowsertest()[pri:2, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:11 IST" name="EdgeBrowsertest" finished-at="2026-07-20T15:25:17 IST" duration-ms="5711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeBrowsertest -->
+      </class> <!-- com.WebDriverCommands.BrowserCommands -->
+      <class name="com.WebDriverCommands.CaseStudy2">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:25:50 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:25:59 IST" duration-ms="8962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:25:59 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:26:06 IST" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeBrowserCommands -->
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:26:06 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:26:17 IST" duration-ms="11142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy2 -->
+      <class name="com.WebDriverCommands.CaseStudy5">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy5@7bbc8656]" started-at="2026-07-20T15:26:21 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:27 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy5 -->
+      <class name="com.WebDriverCommands.CaseStudy4">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:27 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:31 IST" duration-ms="4124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:31 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:26:34 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeBrowserCommands -->
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:34 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:26:53 IST" duration-ms="19631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxBrowserCommands -->
+      </class> <!-- com.WebDriverCommands.CaseStudy4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
