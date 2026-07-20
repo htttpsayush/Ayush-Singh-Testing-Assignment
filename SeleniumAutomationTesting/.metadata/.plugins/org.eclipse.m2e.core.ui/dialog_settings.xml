@@ -46,34 +46,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="SeleniumWebDriver_Actions"/>
-			<item value="CountNoOfRadioButtonPresentInSpiceJet.com"/>
-			<item value="SeleniumWebDriver-DataDrivenTestingUsingCSVFiles"/>
-			<item value="Multiple_Frames"/>
-			<item value="SeleniumWebDriver_HandlingListBoxOrDropDownBoxItems"/>
-			<item value="WebBrowser-Navigation"/>
-			<item value="Selenium-WebDriver-WebBrowserCommands"/>
-			<item value="Selenium-Webdriver-Chrome-Browser-Launch"/>
 		</list>
 		<list key="name">
-			<item value="SeleniumWebDriver_Actions"/>
-			<item value="SpiceJet.com"/>
-			<item value="Data"/>
-			<item value="Multiple_Frames"/>
-			<item value="ListBoxOrDropDownBox"/>
-			<item value="Navigation"/>
-			<item value="WebDriver-Commands"/>
-			<item value="Ayush Test Architect"/>
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumWebDriver_Actions"/>
-			<item value="CountNoOfRadioButtonPresentInSpiceJet.com"/>
-			<item value="SeleniumWebDriver-DataDrivenTestingUsingCSVFiles"/>
-			<item value="Multiple_Frames"/>
-			<item value="SeleniumWebDriver_HandlingListBoxOrDropDownBoxItems"/>
-			<item value="WebBrowser-Navigation"/>
-			<item value="Selenium-WebDriver-WebBrowserCommands"/>
-			<item value="ChromeBrowserTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
