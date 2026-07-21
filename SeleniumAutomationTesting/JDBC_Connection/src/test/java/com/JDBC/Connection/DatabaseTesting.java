@@ -12,7 +12,7 @@ public class DatabaseTesting {
 	public void establishDatabaseConnection() throws ClassNotFoundException, SQLException {
 		String databaseURL = "jdbc:mysql://localhost:3306/SeleniumAutomation";
 		String user = "root";
-		String password = "testing";
+		String password = "Root@123";
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Connecting to Database");
