@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-20T15:25:03 IST" name="Suite" finished-at="2026-07-20T15:26:53 IST" duration-ms="110153">
+  <suite started-at="2026-07-21T10:24:15 IST" name="Suite" finished-at="2026-07-21T10:25:59 IST" duration-ms="103499">
     <groups>
     </groups>
-    <test started-at="2026-07-20T15:25:03 IST" name="Test" finished-at="2026-07-20T15:26:53 IST" duration-ms="110153">
+    <test started-at="2026-07-21T10:24:15 IST" name="Test" finished-at="2026-07-21T10:25:59 IST" duration-ms="103499">
       <class name="com.WebDriverCommands.CaseStudy7">
-        <test-method signature="headlessBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy7@7dfd3c81]" started-at="2026-07-20T15:26:17 IST" name="headlessBrowserCommands" finished-at="2026-07-20T15:26:19 IST" duration-ms="1797" status="FAIL">
+        <test-method signature="headlessBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy7@7dfd3c81]" started-at="2026-07-21T10:25:36 IST" name="headlessBrowserCommands" finished-at="2026-07-21T10:25:38 IST" duration-ms="1963" status="FAIL">
           <exception class="java.nio.file.FileAlreadyExistsException">
             <message>
               <![CDATA[Screenshots\HeadlessHomePage.png]]>
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- headlessBrowserCommands -->
       </class> <!-- com.WebDriverCommands.CaseStudy7 -->
       <class name="com.WebDriverCommands.CaseStudy6">
-        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy6@2584b82d]" started-at="2026-07-20T15:26:19 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:21 IST" duration-ms="1480" status="FAIL">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy6@2584b82d]" started-at="2026-07-21T10:25:38 IST" name="chromeBrowserCommands" finished-at="2026-07-21T10:25:39 IST" duration-ms="1422" status="FAIL">
           <exception class="java.nio.file.FileAlreadyExistsException">
             <message>
               <![CDATA[Screenshots\WebkulHomePage.png]]>
@@ -97,63 +97,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- chromeBrowserCommands -->
       </class> <!-- com.WebDriverCommands.CaseStudy6 -->
       <class name="com.WebDriverCommands.CaseStudy3">
-        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:17 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:25:32 IST" duration-ms="15449" status="PASS">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-21T10:24:31 IST" name="chromeBrowserCommands" finished-at="2026-07-21T10:24:44 IST" duration-ms="12522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserCommands -->
-        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:32 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:25:40 IST" duration-ms="7883" status="PASS">
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-21T10:24:44 IST" name="edgeBrowserCommands" finished-at="2026-07-21T10:24:52 IST" duration-ms="8108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edgeBrowserCommands -->
-        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-20T15:25:40 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:25:50 IST" duration-ms="10040" status="PASS">
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy3@4dc27487]" started-at="2026-07-21T10:24:52 IST" name="firefoxBrowserCommands" finished-at="2026-07-21T10:25:05 IST" duration-ms="12940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefoxBrowserCommands -->
       </class> <!-- com.WebDriverCommands.CaseStudy3 -->
       <class name="com.WebDriverCommands.BrowserCommands">
-        <test-method signature="FireFoxBrowserTest()[pri:0, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:03 IST" name="FireFoxBrowserTest" finished-at="2026-07-20T15:25:08 IST" duration-ms="5401" status="PASS">
+        <test-method signature="FireFoxBrowserTest()[pri:0, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-21T10:24:15 IST" name="FireFoxBrowserTest" finished-at="2026-07-21T10:24:21 IST" duration-ms="5431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FireFoxBrowserTest -->
-        <test-method signature="ChromeBrowserTest()[pri:1, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:09 IST" name="ChromeBrowserTest" finished-at="2026-07-20T15:25:11 IST" duration-ms="2557" status="PASS">
+        <test-method signature="ChromeBrowserTest()[pri:1, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-21T10:24:21 IST" name="ChromeBrowserTest" finished-at="2026-07-21T10:24:27 IST" duration-ms="5585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeBrowserTest -->
-        <test-method signature="EdgeBrowsertest()[pri:2, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-20T15:25:11 IST" name="EdgeBrowsertest" finished-at="2026-07-20T15:25:17 IST" duration-ms="5711" status="PASS">
+        <test-method signature="EdgeBrowsertest()[pri:2, instance:com.WebDriverCommands.BrowserCommands@475c9c31]" started-at="2026-07-21T10:24:27 IST" name="EdgeBrowsertest" finished-at="2026-07-21T10:24:31 IST" duration-ms="4849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EdgeBrowsertest -->
       </class> <!-- com.WebDriverCommands.BrowserCommands -->
       <class name="com.WebDriverCommands.CaseStudy2">
-        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:25:50 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:25:59 IST" duration-ms="8962" status="PASS">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-21T10:25:05 IST" name="chromeBrowserCommands" finished-at="2026-07-21T10:25:14 IST" duration-ms="9234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserCommands -->
-        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:25:59 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:26:06 IST" duration-ms="7011" status="PASS">
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-21T10:25:14 IST" name="edgeBrowserCommands" finished-at="2026-07-21T10:25:22 IST" duration-ms="8070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edgeBrowserCommands -->
-        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-20T15:26:06 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:26:17 IST" duration-ms="11142" status="PASS">
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy2@6a4f1a55]" started-at="2026-07-21T10:25:22 IST" name="firefoxBrowserCommands" finished-at="2026-07-21T10:25:36 IST" duration-ms="13664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefoxBrowserCommands -->
       </class> <!-- com.WebDriverCommands.CaseStudy2 -->
       <class name="com.WebDriverCommands.CaseStudy5">
-        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy5@7bbc8656]" started-at="2026-07-20T15:26:21 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:27 IST" duration-ms="5898" status="PASS">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy5@7bbc8656]" started-at="2026-07-21T10:25:39 IST" name="chromeBrowserCommands" finished-at="2026-07-21T10:25:44 IST" duration-ms="4956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserCommands -->
       </class> <!-- com.WebDriverCommands.CaseStudy5 -->
       <class name="com.WebDriverCommands.CaseStudy4">
-        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:27 IST" name="chromeBrowserCommands" finished-at="2026-07-20T15:26:31 IST" duration-ms="4124" status="PASS">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-21T10:25:44 IST" name="chromeBrowserCommands" finished-at="2026-07-21T10:25:47 IST" duration-ms="2896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserCommands -->
-        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:31 IST" name="edgeBrowserCommands" finished-at="2026-07-20T15:26:34 IST" duration-ms="2877" status="PASS">
+        <test-method signature="edgeBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-21T10:25:47 IST" name="edgeBrowserCommands" finished-at="2026-07-21T10:25:50 IST" duration-ms="3070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edgeBrowserCommands -->
-        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-20T15:26:34 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T15:26:53 IST" duration-ms="19631" status="PASS">
+        <test-method signature="firefoxBrowserCommands()[pri:0, instance:com.WebDriverCommands.CaseStudy4@6933b6c6]" started-at="2026-07-21T10:25:50 IST" name="firefoxBrowserCommands" finished-at="2026-07-21T10:25:59 IST" duration-ms="8612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefoxBrowserCommands -->

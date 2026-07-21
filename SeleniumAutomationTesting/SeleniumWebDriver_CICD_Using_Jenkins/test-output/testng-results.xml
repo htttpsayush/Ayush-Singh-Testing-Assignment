@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-21T10:48:49 IST" name="Jenkins_CICD_Suite" finished-at="2026-07-21T10:49:45 IST" duration-ms="56301">
+    <groups>
+    </groups>
+    <test started-at="2026-07-21T10:48:49 IST" name="Chrome Test" finished-at="2026-07-21T10:49:45 IST" duration-ms="56301">
+      <class name="com.JenkinsCICDDemoTest.JenkinsCICDTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.JenkinsCICDDemoTest.JenkinsCICDTest@51891008]" started-at="2026-07-21T10:48:49 IST" name="setup" finished-at="2026-07-21T10:48:50 IST" duration-ms="1235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest()[pri:0, instance:com.JenkinsCICDDemoTest.JenkinsCICDTest@51891008]" started-at="2026-07-21T10:48:50 IST" name="NavigationTest" finished-at="2026-07-21T10:49:45 IST" duration-ms="54818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.JenkinsCICDDemoTest.JenkinsCICDTest@51891008]" started-at="2026-07-21T10:49:45 IST" name="tearDown" finished-at="2026-07-21T10:49:45 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JenkinsCICDDemoTest.JenkinsCICDTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Jenkins_CICD_Suite -->
+</testng-results>
