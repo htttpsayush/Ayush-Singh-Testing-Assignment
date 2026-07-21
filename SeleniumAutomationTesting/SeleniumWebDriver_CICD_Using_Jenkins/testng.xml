@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<suite name="Jenkins_CICD_Suite">
-
-    <test name="Chrome Test">
-
-        <parameter name="browser" value="chrome"/>
-
-        <classes>
-            <class name="com.JenkinsCICDDemoTest.JenkinsCICDTest"/>
-        </classes>
-
-    </test>
-
-</suite>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.WebDriverCommands.CaseStudy3"/>
+      <class name="com.WebDriverCommands.BrowserCommands"/>
+      <class name="com.WebDriverCommands.CaseStudy2"/>
+      <class name="com.WebDriverCommands.CaseStudy7"/>
+      <class name="com.WebDriverCommands.CaseStudy6"/>
+      <class name="com.WebDriverCommands.CaseStudy5"/>
+      <class name="com.WebDriverCommands.CaseStudy4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

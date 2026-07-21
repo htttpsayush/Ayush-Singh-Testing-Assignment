@@ -3,13 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.JenkinsCICDDemoTest.JenkinsCICDTest">
+      <class name="com.WebDriverCommands.CaseStudy7">
         <methods>
-          <include name="NavigationTest"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="headlessBrowserCommands"/>
         </methods>
-      </class> <!-- com.JenkinsCICDDemoTest.JenkinsCICDTest -->
+      </class> <!-- com.WebDriverCommands.CaseStudy7 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

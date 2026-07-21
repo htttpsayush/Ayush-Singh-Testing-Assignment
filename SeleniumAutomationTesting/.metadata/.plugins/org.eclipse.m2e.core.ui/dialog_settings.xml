@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver_CICD_Using_Jenkins"/>
 			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver-DataDrivenTestingUsingCSVFiles\pom.xml"/>
 			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver-Multiple_Frames\src\test\java\com\MultipleFrames\MultiFrames.java"/>
 			<item value="D:\coforge testing folder\coforgeautomationtesting\Selenium-Webdriver-launch-Chrome-Browser\src\com\SeleniumWebdriver\ChromeBreowser\ChromeBrowserTest.java"/>
@@ -46,10 +47,21 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="BehaviourDrivenDevelopment_Using_Cucumber"/>
+			<item value="SeleniumWebDriver_CICD_Using_Jenkins"/>
+			<item value="SeleniumWebDriver_Allure_Reports"/>
+			<item value="HybridDrivenFramework_javaSelenium"/>
 		</list>
 		<list key="name">
+			<item value="BehaviourDrivenDevelopment_Using_Cucumber"/>
+			<item value="SeleniumWebDriver_Allure_Reports"/>
+			<item value="HybridDrivenFramework_javaSelenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="BehaviourDrivenDevelopment_Using_Cucumber"/>
+			<item value="SeleniumWebDriver_CICD_Using_Jenkins"/>
+			<item value="SeleniumWebDriver_Allure_Reports"/>
+			<item value="HybridDrivenFramework_javaSelenium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
