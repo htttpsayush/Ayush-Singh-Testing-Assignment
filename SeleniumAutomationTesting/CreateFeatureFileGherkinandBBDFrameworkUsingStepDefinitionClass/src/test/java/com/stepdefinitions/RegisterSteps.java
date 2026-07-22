@@ -3,7 +3,7 @@ package com.stepdefinitions;
 import org.testng.Assert;
 
 import com.base.DriverFactory;
-import com.pages.AccountCreatedPag;
+import com.pages.AccountCreatedPage;
 import com.pages.AccountInformationPage;
 import com.pages.HomePage;
 import com.pages.SignupPage;
@@ -17,7 +17,7 @@ public class RegisterSteps {
 	HomePage homePage = new HomePage(DriverFactory.getDriver());
 	SignupPage signupPage = new SignupPage(DriverFactory.getDriver());
 	AccountInformationPage accountPage = new AccountInformationPage(DriverFactory.getDriver());
-	AccountCreatedPag createdPage = new AccountCreatedPag(DriverFactory.getDriver());
+	AccountCreatedPage createdPage = new AccountCreatedPage(DriverFactory.getDriver());
 
 	@Given("User launches the browser")
 	public void user_launches_the_browser() {
