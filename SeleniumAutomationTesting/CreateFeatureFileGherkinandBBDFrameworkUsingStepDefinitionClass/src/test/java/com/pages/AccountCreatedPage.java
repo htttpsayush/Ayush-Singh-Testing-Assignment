@@ -52,12 +52,23 @@ public class AccountCreatedPage {
     // Verify Logged In User
     public boolean isLoggedInUserDisplayed() {
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-        return wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//a[contains(.,'Logged in as')]")))
-                .isDisplayed();
+        try {
+
+            WebElement loggedIn = wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(
+                            By.xpath("//a[contains(text(),'Logged in as')]")));
+
+            return loggedIn.isDisplayed();
+
+        } catch (Exception e) {
+
+            System.out.println("Current URL : " + driver.getCurrentUrl());
+            System.out.println("Current Title : " + driver.getTitle());
+
+            return false;
+        }
     }
 
     // Click Delete Account

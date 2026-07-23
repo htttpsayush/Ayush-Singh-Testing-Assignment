@@ -8,6 +8,7 @@ import com.pages.AccountInformationPage;
 import com.pages.HomePage;
 import com.pages.SignupPage;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -57,8 +58,12 @@ public class RegisterSteps {
 	@When("User enters email {string}")
 	public void user_enters_email(String email) {
 
-		signupPage.enterEmail(email);
+	    // Generate unique email every execution
+	    String dynamicEmail = "ayush" + System.currentTimeMillis() + "@gmail.com";
 
+	    signupPage.enterEmail(dynamicEmail);
+
+	    System.out.println("Generated Email: " + dynamicEmail);
 	}
 
 	@When("User clicks Signup button")
@@ -238,5 +243,7 @@ public class RegisterSteps {
         Assert.assertTrue(createdPage.isAccountDeletedDisplayed());
 
     }
+    
+    
 
 }

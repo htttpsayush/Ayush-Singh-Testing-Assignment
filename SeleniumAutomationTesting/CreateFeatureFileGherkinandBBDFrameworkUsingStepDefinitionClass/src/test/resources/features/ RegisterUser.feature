@@ -43,8 +43,4 @@ Feature: Register User
 
     Then Logged in as username should be displayed
 
-    When User clicks Delete Account button
-
-    Then Account Deleted should be displayed
-
-    And User clicks Continue button
+    

@@ -1,58 +1,107 @@
 package com.pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignupPage {
 
     WebDriver driver;
+    WebDriverWait wait;
 
     // Constructor
     public SignupPage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     // =========================
     // Locators
     // =========================
 
-    By newUserSignupText = By.xpath("//h2[text()='New User Signup!']");
+    private By newUserSignupText =
+            By.xpath("//h2[text()='New User Signup!']");
 
-    By name = By.name("name");
+    private By name =
+            By.name("name");
 
-    By email = By.xpath("//input[@data-qa='signup-email']");
+    private By email =
+            By.xpath("//input[@data-qa='signup-email']");
 
-    By signupButton = By.xpath("//button[@data-qa='signup-button']");
+    private By signupButton =
+            By.xpath("//button[@data-qa='signup-button']");
 
-    By enterAccountInfo = By.xpath("//b[text()='Enter Account Information']");
+    private By enterAccountInfo =
+            By.xpath("//b[text()='Enter Account Information']");
+
+    private By existingEmailError =
+            By.xpath("//form[@action='/signup']//p");
 
     // =========================
     // Methods
     // =========================
 
-    // Verify New User Signup
     public boolean isNewUserSignupVisible() {
-        return driver.findElement(newUserSignupText).isDisplayed();
+
+        return wait.until(
+                ExpectedConditions.visibilityOfElementLocated(newUserSignupText))
+                .isDisplayed();
+
     }
 
-    // Enter Name
     public void enterName(String userName) {
-        driver.findElement(name).sendKeys(userName);
+
+        WebElement element = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(name));
+
+        element.clear();
+        element.sendKeys(userName);
+
     }
 
-    // Enter Email
     public void enterEmail(String userEmail) {
-        driver.findElement(email).sendKeys(userEmail);
+
+        WebElement element = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(email));
+
+        element.clear();
+        element.sendKeys(userEmail);
+
     }
 
-    // Click Signup
     public void clickSignupButton() {
-        driver.findElement(signupButton).click();
+
+        WebElement element = wait.until(
+                ExpectedConditions.elementToBeClickable(signupButton));
+
+        element.click();
+
     }
 
-    // Verify Enter Account Information
     public boolean isEnterAccountInformationVisible() {
-        return driver.findElement(enterAccountInfo).isDisplayed();
+
+        return wait.until(
+                ExpectedConditions.visibilityOfElementLocated(enterAccountInfo))
+                .isDisplayed();
+
+    }
+
+    public boolean isExistingEmailErrorDisplayed() {
+
+        WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(15));
+
+        By errorMessage = By.xpath("//form[@action='/signup']//p");
+
+        WebElement error = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(errorMessage));
+
+        System.out.println("Actual Error : " + error.getText());
+
+        return error.getText().trim().equals("Email Address already exist!");
     }
 
 }

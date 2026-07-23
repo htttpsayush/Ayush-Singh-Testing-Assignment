@@ -2,6 +2,8 @@ package com.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 
 public class LoginPage {
 
@@ -44,7 +46,14 @@ public class LoginPage {
 
     // Click Login Button
     public void clickLoginButton() {
-        driver.findElement(loginButton).click();
+
+        WebElement element = driver.findElement(loginButton);
+
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView({block:'center'});", element);
+
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].click();", element);
     }
 
     // Complete Login

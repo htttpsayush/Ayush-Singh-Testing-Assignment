@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\acayu\AppData\Local\Temp\testng-eclipse--1777197884\testng-customsuite.xml</span>
+                    <span>C:\Users\acayu\AppData\Local\Temp\testng-eclipse--1896228964\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add Product to Cart&quot;, &quot;Cart Functionality&quot;)">runScenario("Add Product to Cart", "Cart Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Submit Contact Us Form Successfully&quot;, &quot;Contact Us Form&quot;)">runScenario("Submit Contact Us Form Successfully", "Contact Us Form")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login User with correct email and password&quot;, &quot;Login Functionality&quot;)">runScenario("Login User with correct email and password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Logout User Successfully&quot;, &quot;Logout Functionality&quot;)">runScenario("Logout User Successfully", "Logout Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +132,42 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register a new user successfully&quot;, &quot;Register User&quot;)">runScenario("Register a new user successfully", "Register User")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login User with correct email and password&quot;, &quot;Login Functionality&quot;)">runScenario("Login User with correct email and password", "Login Functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can navigate to Test Cases page&quot;, &quot;Verify Test Cases Page&quot;)">runScenario("Verify user can navigate to Test Cases page", "Verify Test Cases Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login User with incorrect email and password&quot;, &quot;Login Functionality&quot;)">runScenario("Login User with incorrect email and password", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify all products and product details&quot;, &quot;Verify All Products and Product Detail Page&quot;)">runScenario("Verify all products and product details", "Verify All Products and Product Detail Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search a product successfully&quot;, &quot;Search Product&quot;)">runScenario("Search a product successfully", "Search Product")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register using an already registered email&quot;, &quot;Register User with Existing Email&quot;)">runScenario("Register using an already registered email", "Register User with Existing Email")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Subscription in Cart Page&quot;, &quot;Cart Functionality&quot;)">runScenario("Verify Subscription in Cart Page", "Cart Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register a new user successfully&quot;, &quot;Register User&quot;)">runScenario("Register a new user successfully", "Register User")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Subscription functionality&quot;, &quot;Verify Subscription in Home Page&quot;)">runScenario("Verify Subscription functionality", "Verify Subscription in Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -128,18 +182,67 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.runner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Register a new user successfully&quot;, &quot;Register User&quot;)">
-                  </a> <!-- runScenario("Register a new user successfully", "Register User") -->
+                  <a name="runScenario(&quot;Add Product to Cart&quot;, &quot;Cart Functionality&quot;)">
+                  </a> <!-- runScenario("Add Product to Cart", "Cart Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Register a new user successfully","Register User")</span>
+                  <span class="parameters">("Add Product to Cart","Cart Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //u[contains(text(),&apos;View Cart&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62263}, goog:processID: 25788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62263/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4bbd9e2d2b902eadabd6a3f23e0a25a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.pages.CartPage.clickViewCart(CartPage.java:131)
+	at com.stepdefinitions.CartSteps.user_clicks_view_cart(CartSteps.java:91)
+	at ✽.User clicks View Cart(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/cart.feature:22)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Submit Contact Us Form Successfully&quot;, &quot;Contact Us Form&quot;)">
+                  </a> <!-- runScenario("Submit Contact Us Form Successfully", "Contact Us Form") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Submit Contact Us Form Successfully","Contact Us Form")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\acayu\\Downloads\\sample.txt
+  (Session info: chrome=150.0.7871.129)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0066e95a68360cb00f94d6787089a8bb, sendKeysToElement {value=[Ljava.lang.CharSequence;@1578b8ec, id=f.52C28124687E7EC17EB66BBEC2381D9E.d.188F9D6096F8722409AABFD474EBC4F9.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50698}, goog:processID: 25868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0066e95a68360cb00f94d6787089a8bb)] -&gt; name: upload_file]
+Session ID: 0066e95a68360cb00f94d6787089a8bb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.pages.ContactUsPage.uploadFile(ContactUsPage.java:81)
+	at com.stepdefinitions.ContactUsSteps.user_uploads_file(ContactUsSteps.java:63)
+	at ✽.User uploads file &quot;C:\\Users\\acayu\\Downloads\\sample.txt&quot;(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/ContactUs.feature:13)
+
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -150,6 +253,52 @@
                   </a> <!-- runScenario("Login User with correct email and password", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login User with correct email and password","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Login.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logout User Successfully&quot;, &quot;Logout Functionality&quot;)">
+                  </a> <!-- runScenario("Logout User Successfully", "Logout Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logout User Successfully","Logout Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Logout.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can navigate to Test Cases page&quot;, &quot;Verify Test Cases Page&quot;)">
+                  </a> <!-- runScenario("Verify user can navigate to Test Cases page", "Verify Test Cases Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can navigate to Test Cases page","Verify Test Cases Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -164,12 +313,72 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify all products and product details&quot;, &quot;Verify All Products and Product Detail Page&quot;)">
+                  </a> <!-- runScenario("Verify all products and product details", "Verify All Products and Product Detail Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify all products and product details","Verify All Products and Product Detail Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search a product successfully&quot;, &quot;Search Product&quot;)">
+                  </a> <!-- runScenario("Search a product successfully", "Search Product") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search a product successfully","Search Product")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register using an already registered email&quot;, &quot;Register User with Existing Email&quot;)">
+                  </a> <!-- runScenario("Register using an already registered email", "Register User with Existing Email") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register using an already registered email","Register User with Existing Email")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Subscription in Cart Page&quot;, &quot;Cart Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Subscription in Cart Page", "Cart Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Subscription in Cart Page","Cart Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register a new user successfully&quot;, &quot;Register User&quot;)">
+                  </a> <!-- runScenario("Register a new user successfully", "Register User") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register a new user successfully","Register User")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Subscription functionality&quot;, &quot;Verify Subscription in Home Page&quot;)">
+                  </a> <!-- runScenario("Verify Subscription functionality", "Verify Subscription in Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Subscription functionality","Verify Subscription in Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\acayu\AppData\Local\Temp\testng-eclipse--1777197884\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\acayu\AppData\Local\Temp\testng-eclipse--1896228964\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -226,24 +435,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.runner.TestRunner')
-data.setCell(0, 3, 64812);
+data.setCell(0, 3, 72481);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.runner.TestRunner')
-data.setCell(1, 3, 26917);
+data.setCell(1, 3, 70620);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.runner.TestRunner')
-data.setCell(2, 3, 10951);
+data.setCell(2, 3, 68402);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.runner.TestRunner')
+data.setCell(3, 3, 51232);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.runner.TestRunner')
+data.setCell(4, 3, 47943);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.runner.TestRunner')
+data.setCell(5, 3, 34467);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.runner.TestRunner')
+data.setCell(6, 3, 25947);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.runner.TestRunner')
+data.setCell(7, 3, 25026);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.runner.TestRunner')
+data.setCell(8, 3, 21316);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.runner.TestRunner')
+data.setCell(9, 3, 14360);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.runner.TestRunner')
+data.setCell(10, 3, 13935);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.runner.TestRunner')
+data.setCell(11, 3, 12958);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -271,24 +516,68 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2443135)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@265287ec)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Register a new user successfully", "Register User")</span>
-                <span class="method-start">429 ms</span>
+                <span class="method-name">runScenario("Register using an already registered email", "Register User with Existing Email")</span>
+                <span class="method-start">421 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">runScenario("Register a new user successfully", "Register User")</span>
+                <span class="method-start">13382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Submit Contact Us Form Successfully", "Contact Us Form")</span>
+                <span class="method-start">34699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Login User with correct email and password", "Login Functionality")</span>
-                <span class="method-start">65244 ms</span>
+                <span class="method-start">60648 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login User with incorrect email and password", "Login Functionality")</span>
-                <span class="method-start">92162 ms</span>
+                <span class="method-start">108592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Logout User Successfully", "Logout Functionality")</span>
+                <span class="method-start">122953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify all products and product details", "Verify All Products and Product Detail Page")</span>
+                <span class="method-start">157421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search a product successfully", "Search Product")</span>
+                <span class="method-start">229903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Subscription functionality", "Verify Subscription in Home Page")</span>
+                <span class="method-start">300525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can navigate to Test Cases page", "Verify Test Cases Page")</span>
+                <span class="method-start">325551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Subscription in Cart Page", "Cart Functionality")</span>
+                <span class="method-start">376784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add Product to Cart", "Cart Functionality")</span>
+                <span class="method-start">390720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">103116 ms</span>
+                <span class="method-start">459124 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

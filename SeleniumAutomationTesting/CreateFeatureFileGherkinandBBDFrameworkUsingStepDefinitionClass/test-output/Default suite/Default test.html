@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 23 01:00:24 IST 2026</td>
+<td>Started on:</td><td>Thu Jul 23 09:48:49 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103168 ms)</td>
+<tr><td>Total time:</td><td>459 seconds (459186 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,137 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Product to Cart", "Cart Functionality"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //u[contains(text(),&apos;View Cart&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62263}, goog:processID: 25788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62263/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4bbd9e2d2b902eadabd6a3f23e0a25a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.pages.CartPage.clickViewCart(CartPage.java:131)
+	at com.stepdefinitions.CartSteps.user_clicks_view_cart(CartSteps.java:91)
+	at ✽.User clicks View Cart(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/cart.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1590075830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1590075830'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //u[contains(text(),&apos;View Cart&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62263}, goog:processID: 25788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62263/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4bbd9e2d2b902eadabd6a3f23e0a25a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.pages.CartPage.clickViewCart(CartPage.java:131)
+	at com.stepdefinitions.CartSteps.user_clicks_view_cart(CartSteps.java:91)
+	at ✽.User clicks View Cart(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/cart.feature:22)
+</pre></div></td>
+<td>68</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit Contact Us Form Successfully", "Contact Us Form"</td>
+<td><div><pre>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\acayu\\Downloads\\sample.txt
+  (Session info: chrome=150.0.7871.129)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0066e95a68360cb00f94d6787089a8bb, sendKeysToElement {value=[Ljava.lang.CharSequence;@1578b8ec, id=f.52C28124687E7EC17EB66BBEC2381D9E.d.188F9D6096F8722409AABFD474EBC4F9.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50698}, goog:processID: 25868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0066e95a68360cb00f94d6787089a8bb)] -&gt; name: upload_file]
+Session ID: 0066e95a68360cb00f94d6787089a8bb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.pages.ContactUsPage.uploadFile(ContactUsPage.java:81)
+	at com.stepdefinitions.ContactUsSteps.user_uploads_file(ContactUsSteps.java:63)
+	at ✽.User uploads file &quot;C:\\Users\\acayu\\Downloads\\sample.txt&quot;(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/ContactUs.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace875761527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace875761527'><pre>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\Users\\acayu\\Downloads\\sample.txt
+  (Session info: chrome=150.0.7871.129)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0066e95a68360cb00f94d6787089a8bb, sendKeysToElement {value=[Ljava.lang.CharSequence;@1578b8ec, id=f.52C28124687E7EC17EB66BBEC2381D9E.d.188F9D6096F8722409AABFD474EBC4F9.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.129, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\acayu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50698}, goog:processID: 25868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 150.0.7871.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0066e95a68360cb00f94d6787089a8bb)] -&gt; name: upload_file]
+Session ID: 0066e95a68360cb00f94d6787089a8bb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.pages.ContactUsPage.uploadFile(ContactUsPage.java:81)
+	at com.stepdefinitions.ContactUsSteps.user_uploads_file(ContactUsSteps.java:63)
+	at ✽.User uploads file &quot;C:\\Users\\acayu\\Downloads\\sample.txt&quot;(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/ContactUs.feature:13)
+</pre></div></td>
+<td>25</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login User with correct email and password", "Login Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Login.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace923366543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace923366543'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Login.feature:11)
+</pre></div></td>
+<td>47</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout User Successfully", "Logout Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Logout.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1568638055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1568638055'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinitions.RegisterSteps.logged_in_as_username_should_be_displayed(RegisterSteps.java:229)
+	at ✽.Logged in as username should be displayed(file:///C:/Users/acayu/Ayush-Singh-Testing-Assignment/SeleniumAutomationTesting/CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass/src/test/resources/features/Logout.feature:11)
+</pre></div></td>
+<td>34</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,19 +207,44 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register a new user successfully", "Register User"</td>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can navigate to Test Cases page", "Verify Test Cases Page"</td>
 <td></td>
-<td>64</td>
-<td>com.runner.TestRunner@1cf56a1c</td></tr>
-<tr>
-<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login User with correct email and password", "Login Functionality"</td>
-<td></td>
-<td>26</td>
+<td>51</td>
 <td>com.runner.TestRunner@1cf56a1c</td></tr>
 <tr>
 <td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login User with incorrect email and password", "Login Functionality"</td>
 <td></td>
-<td>10</td>
+<td>14</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify all products and product details", "Verify All Products and Product Detail Page"</td>
+<td></td>
+<td>72</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search a product successfully", "Search Product"</td>
+<td></td>
+<td>70</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register using an already registered email", "Register User with Existing Email"</td>
+<td></td>
+<td>12</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Subscription in Cart Page", "Cart Functionality"</td>
+<td></td>
+<td>13</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register a new user successfully", "Register User"</td>
+<td></td>
+<td>21</td>
+<td>com.runner.TestRunner@1cf56a1c</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Subscription functionality", "Verify Subscription in Home Page"</td>
+<td></td>
+<td>25</td>
 <td>com.runner.TestRunner@1cf56a1c</td></tr>
 </table><p>
 </body>
