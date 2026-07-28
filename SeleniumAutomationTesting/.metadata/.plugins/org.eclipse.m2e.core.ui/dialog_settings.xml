@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\REST_Assured_With_BDD_Framework\pom.xml"/>
 			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\JDBC_Connection\src\test\java"/>
 			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\BehaviourDrivenDevelopment_Using_Cucumber\src\test\java\StepDefination\TestCaseDesignTechnique.java"/>
 			<item value="C:\Users\acayu\Ayush-Singh-Testing-Assignment\SeleniumAutomationTesting\SeleniumWebDriver_CICD_Using_Jenkins"/>
@@ -49,6 +50,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="AutomationFinalProject"/>
+			<item value="AutomationProject"/>
 			<item value="CRUDOperations"/>
 			<item value="CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass"/>
 			<item value="JDBC_Connection"/>
@@ -58,6 +61,8 @@
 			<item value="HybridDrivenFramework_javaSelenium"/>
 		</list>
 		<list key="name">
+			<item value="AutomationFinalProject"/>
+			<item value="AutomationProject"/>
 			<item value="CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass"/>
 			<item value="SeleniumWebDriver_JDBC_Connection"/>
 			<item value="BehaviourDrivenDevelopment_Using_Cucumber"/>
@@ -65,6 +70,8 @@
 			<item value="HybridDrivenFramework_javaSelenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="AutomationFinalProject"/>
+			<item value="AutomationProject"/>
 			<item value="CreateFeatureFileGherkinandBBDFrameworkUsingStepDefinitionClass"/>
 			<item value="JDBC_Connection"/>
 			<item value="BehaviourDrivenDevelopment_Using_Cucumber"/>
