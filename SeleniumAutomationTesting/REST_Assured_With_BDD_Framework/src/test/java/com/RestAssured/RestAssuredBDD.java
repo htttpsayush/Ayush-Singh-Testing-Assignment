@@ -37,3 +37,7 @@ public class RestAssuredBDD {
       		System.out.println("Response Time:"+response.getTime());
     }
 }
+
+
+
+

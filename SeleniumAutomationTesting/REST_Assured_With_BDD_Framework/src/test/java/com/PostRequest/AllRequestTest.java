@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class CompletePutPostTest {
+public class AllRequestTest {
 
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
 
@@ -24,8 +24,8 @@ public class CompletePutPostTest {
 
         testUser = new JSONObject();
         testUser.put("name", "Test User");
-        testUser.put("username", "raghavendra");
-        testUser.put("email", "raghu.astepahead@gmail.com");
+        testUser.put("username", "ayush");
+        testUser.put("email", "ayush.astepahead@gmail.com");
     }
 
     // ================= POST =================

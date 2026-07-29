@@ -1,1 +1,0 @@
-{"uuid":"848170a4-c6e9-4257-9683-f68b86e03670","name":"com.guru99.base.BaseClass.setup","children":["b3eb8be0-e41a-4bf7-bbfe-55ed501c57d7"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1785231619200,"stop":1785231627907}],"afters":[],"start":1785231619200,"stop":1785231627908}
